@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 💰 Personal Finance Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern **Personal Finance Dashboard** built with **React** that helps users track **Income, Expenses, and Investments**, visualize spending patterns, and analyze financial health using interactive charts.
 
-## Available Scripts
+This project is designed as a **placement-ready portfolio project**, showcasing real-world frontend skills, data handling, and UI/UX best practices.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📊 Dashboard & Analytics
+- Total Income, Expenses, Investments, Net Balance
+- Category-wise financial breakdown
+- Monthly financial overview
+- Interactive **Pie, Bar, and Line charts**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🧾 Transaction Management
+- Add **Income / Expense / Investment**
+- Edit & delete transactions
+- Separate views for:
+  - Income
+  - Expenses
+  - Investments
 
-### `npm test`
+### 🔍 Filters & Controls
+- Filter by month
+- Filter by transaction type
+- Search by title
+- Sort by date or amount
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🌗 UI & UX
+- Dark mode / Light mode
+- Clean responsive UI (Tailwind CSS)
+- Visual cues for transaction types
 
-### `npm run build`
+### 💾 Data Persistence
+- Uses **LocalStorage**
+- Data remains saved even after page refresh
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React.js**
+- **Recharts** (Charts & Graphs)
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **LocalStorage**
+- **Git & GitHub**
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📂 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+expense-tracker/
+├── src/
+│ ├── App.js
+│ ├── index.css
+│ └── main.jsx
+├── public/
+├── package.json
+├── tailwind.config.js
+└── README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ▶️ How to Run Locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone the repository
+git clone https://github.com/Abhishekk-4/personal-finance-dashboard.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Go into project folder
+cd personal-finance-dashboard
 
-### Code Splitting
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Start development server
+npm run dev
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🌐 Live Demo
+(Deploying soon using Vercel)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+📌 Why This Project?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project demonstrates:
 
-### Deployment
+Real-world React state management
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Data filtering & transformations
 
-### `npm run build` fails to minify
+Chart-based analytics
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clean UI & responsive design
+
+Proper Git workflow
+
+
+
+👨‍💻 Author
+
+Abhishek Kumar
+GitHub: https://github.com/Abhishekk-4
+
+
+⭐ If you like this project, don’t forget to star the repo!
