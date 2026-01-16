@@ -200,7 +200,6 @@ function App() {
   const totalIncome = incomeView.reduce((sum, e) => sum + Number(e.amount), 0);
   const totalInvestment = investmentView.reduce((sum, e) => sum + Number(e.amount), 0);
   const netBalance = totalIncome - totalExpenses - totalInvestment;
-  const totalSavings = totalIncome - (totalExpenses + totalInvestment);
 
   // Category-wise totals
   const categoryData = {};
