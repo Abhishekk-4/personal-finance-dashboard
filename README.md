@@ -82,7 +82,7 @@ npm run dev
 
 
 🌐 Live Demo
-(Deploying soon using Vercel)
+https://personal-finance-dashboard-delta-eight.vercel.app/
 
 
 
